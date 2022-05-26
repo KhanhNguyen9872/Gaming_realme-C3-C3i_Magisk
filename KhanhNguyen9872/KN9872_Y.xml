@@ -1,0 +1,2 @@
+#ytbvanced_kn9872
+su -c "pm grant com.vanced.android.youtube android.permission.SYSTEM_ALERT_WINDOW"

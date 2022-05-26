@@ -1,0 +1,2 @@
+#lienquan_kn9872
+su -c "pm grant com.garena.game.kgvn android.permission.SYSTEM_ALERT_WINDOW"

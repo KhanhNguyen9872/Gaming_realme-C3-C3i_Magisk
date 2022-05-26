@@ -1,0 +1,2 @@
+#autoclicker_kn9872
+su -c "pm grant com.truedevelopersstudio.automatictap.autoclicker android.permission.SYSTEM_ALERT_WINDOW"

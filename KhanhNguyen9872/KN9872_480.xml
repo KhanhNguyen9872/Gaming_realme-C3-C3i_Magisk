@@ -1,0 +1,4 @@
+#480p_kn9872
+su -c "wm size 480x1067"
+su -c "wm density 240"
+su -c "am start -a android.intent.action.MAIN -e message '480P - 240 DPI' -n com.rja.utility/.ShowToast"

@@ -1,0 +1,2 @@
+#messenger_kn9872
+su -c "pm grant com.facebook.orca android.permission.SYSTEM_ALERT_WINDOW"

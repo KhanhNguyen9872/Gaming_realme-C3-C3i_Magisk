@@ -1,0 +1,2 @@
+#F1VM_kn9872
+su -c "pm grant com.f1player android.permission.SYSTEM_ALERT_WINDOW"

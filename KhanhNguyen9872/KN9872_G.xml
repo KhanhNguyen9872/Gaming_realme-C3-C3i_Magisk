@@ -1,0 +1,7 @@
+#genshin_kn9872
+echo "- Optimizing performance...."
+360
+echo " 360P - 160DPI"
+d
+echo " Disable Google Service...."
+su -c "khanh_cleanram && am force-stop com.facebook.orca && am force-stop com.zing.zalo && am force-stop com.vanced.android.youtube && am force-stop com.facebook.katana && am start -n com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity && am start -a android.intent.action.MAIN -e message 'Starting Genshin Impact.....' -n com.rja.utility/.ShowToast && am start -a android.intent.action.MAIN -e message 'Starting Genshin Impact.....' -n com.rja.utility/.ShowToast"

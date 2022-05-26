@@ -1,0 +1,4 @@
+#servicetest
+sleep 36
+su -c "am start -a android.intent.action.MAIN -e message 'Starting remove app...' -n com.rja.utility/.ShowToast"
+su -c "sh /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/removeapp1"

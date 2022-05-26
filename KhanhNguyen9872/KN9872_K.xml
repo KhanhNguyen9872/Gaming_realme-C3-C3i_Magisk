@@ -1,0 +1,3 @@
+#autoclicker_kn9872
+su -c "am start -a android.intent.action.MAIN -e message 'Cleanup RAM....' -n com.rja.utility/.ShowToast"
+su -c "khanh_cleanram"

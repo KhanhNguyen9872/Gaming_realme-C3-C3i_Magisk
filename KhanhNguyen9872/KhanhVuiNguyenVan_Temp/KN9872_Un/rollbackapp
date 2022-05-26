@@ -1,0 +1,555 @@
+#kn9872_un
+su -c "cmd package install-existing com.oppo.launcher"
+su -c "pm enable com.oppo.launcher"
+cmd package install-existing com.android.internal.systemui.navbar.twobutton
+cmd package install-existing com.android.internal.systemui.navbar.threebutton
+cmd package install-existing com.android.internal.systemui.navbar.gestural_wide_back
+cmd package install-existing com.android.internal.systemui.navbar.gestural__extra_wide_back
+cmd package install-existing com.android.internal.systemui.navbar.gestural
+cmd package install-existing com.android.internal.systemui.navbar.gestural_narrow_back
+cmd package install-existing com.mediatek.mdmconfig
+cmd package install-existing com.mediatek.mdmlsample
+cmd package install-existing com.oppo.engineermode.camera
+cmd package install-existing com.oppo.engineermode
+cmd package install-existing com.oppo.engineermode.network
+cmd package install-existing com.mediatek.engineermode
+cmd package install-existing com.android.server.wifi
+cmd package install-existing com.oppo.lfeh
+cmd package install-existing com.android.hotspot2
+cmd package install-existing com.coloros.bootreg
+cmd package install-existing com.oppo.rftoolkit
+cmd package install-existing com.android.se
+cmd package install-existing com.wapi.wapicertmanager
+cmd package install-existing com.mediatek.gnss.nonframeworklbs
+cmd package install-existing com.oppo.postmanservice
+cmd package install-existing android.auto_generated_rro_vendor__
+cmd package install-existing android.auto_generated_rro_product__
+cmd package install-existing com.coloros.exserviceui
+cmd package install-existing com.oppo.fingerprints.fingerprintsensortest
+cmd package install-existing com.android.pacprocessor
+cmd package install-existing com.tencent.soter.soterserver
+cmd package install-existing com.google.ar.core
+cmd package install-existing com.coloros.athena
+cmd package install-existing com.oppo.smartvolume
+cmd package install-existing com.android.captiveportallogin
+cmd package install-existing com.android.wallpaper.livepicker
+cmd package install-existing com.android.theme.color.cinnamon
+cmd package install-existing com.android.theme.icon_pack.circular.themepicker
+cmd package install-existing com.android.theme.icon_pack.circular.settings
+cmd package install-existing com.android.theme.icon_pack.circular.systemui
+cmd package install-existing com.android.theme.icon_pack.circular.launcher
+cmd package install-existing com.android.theme.icon_pack.circular.android
+cmd package install-existing com.android.backupconfirm
+cmd package install-existing com.android.carrierconfig.overlay
+cmd package install-existing com.android.ons
+cmd package install-existing com.android.overlay.modules.ModuleMetadataConfigOverlay
+cmd package install-existing com.android.providers.partnerbookmarks
+cmd package install-existing com.android.networkstack.permissionconfig
+cmd package install-existing com.android.sharedstoragebackup
+cmd package install-existing com.android.smspush
+cmd package install-existing com.coloros.activation.overlay.common
+cmd package install-existing com.coloros.colordirectservice.overlay.common
+cmd package install-existing com.coloros.favorite.overlay.common
+cmd package install-existing com.coloros.personalassistant.overlay.common
+cmd package install-existing com.coloros.prome.service.overlay.common
+cmd package install-existing com.coloros.sceneservice.overlay.common
+cmd package install-existing com.google.android.overlay.modules.permissioncontroller
+cmd package install-existing com.google.android.overlay.modules.ext.services
+cmd package install-existing com.google.android.overlay.modules.permissioncontroller.forframework
+cmd package install-existing com.google.android.permissioncontroller.overlay.oppo
+cmd package install-existing com.oppo.gmail.overlay
+cmd package install-existing com.android.companiondevicemanager
+cmd package install-existing com.google.android.configupdater
+cmd package install-existing com.color.uiengine
+cmd package install-existing com.android.vending
+cmd package install-existing com.heytap.themestore
+cmd package install-existing com.debug.loggerui
+cmd package install-existing com.google.android.gms
+cmd package install-existing com.coloros.sau
+cmd package install-existing com.oppoex.afterservice
+cmd package install-existing com.coloros.locationproxy
+cmd package install-existing com.coloros.blacklist
+cmd package install-existing com.android.providers.calendar
+cmd package install-existing com.android.dynsystem
+cmd package install-existing com.heytap.cloud
+cmd package install-existing com.android.theme.icon_pack.filled.settings
+cmd package install-existing com.android.theme.icon_pack.filled.systemui
+cmd package install-existing com.android.theme.icon_pack.filled.android
+cmd package install-existing com.android.theme.icon_pack.filled.launcher
+cmd package install-existing com.android.theme.icon_pack.filled.themepicker
+cmd package install-existing com.nearme.gamecenter
+cmd package install-existing com.oppo.otaui
+cmd package install-existing com.mediatek.gnssdebugreport
+cmd package install-existing com.android.theme.color.green
+cmd package install-existing com.coloros.wallpapers
+cmd package install-existing com.oppo.locationpicker
+cmd package install-existing com.coloros.compass2
+cmd package install-existing com.mediatek.location.lppe.main
+cmd package install-existing com.android.keychain
+cmd package install-existing com.google.android.modulemetadata
+cmd package install-existing com.ted.number
+cmd package install-existing com.android.theme.font.notoserifsource
+cmd package install-existing com.android.theme.color.ocean
+cmd package install-existing com.coloros.ocrservice
+cmd package install-existing com.coloros.ocs.opencapabilityservice
+cmd package install-existing com.oppo.multimedia.dirac
+cmd package install-existing com.android.theme.color.orchid
+cmd package install-existing com.oppo.oppopowermonitor
+cmd package install-existing com.google.android.printservice.recommendation
+cmd package install-existing com.android.proxyhandler
+cmd package install-existing com.android.theme.color.purple
+cmd package install-existing com.coloros.appmanager
+cmd package install-existing com.coloros.securitypermission
+cmd package install-existing com.coloros.notificationmanager
+cmd package install-existing com.mediatek.capctrl.service
+cmd package install-existing com.coloros.wifibackuprestore
+cmd package install-existing com.mediatek.ims
+cmd package install-existing com.coloros.uxdesign
+cmd package install-existing com.android.htmlviewer
+cmd package install-existing com.coloros.weather2
+cmd package install-existing com.android.theme.icon.squircle
+cmd package install-existing com.android.theme.icon.square
+cmd package install-existing com.android.theme.color.space
+cmd package install-existing com.android.simappdialog
+cmd package install-existing com.android.shell
+cmd package install-existing com.coloros.sauhelper
+cmd package install-existing com.android.theme.icon.roundedrect
+cmd package install-existing com.android.server.wifi.OppoWifi.Service
+cmd package install-existing com.android.phone.TelephonyDebugService
+cmd package install-existing com.android.theme.icon_pack.rounded.settings
+cmd package install-existing com.android.theme.icon_pack.rounded.launcher
+cmd package install-existing com.android.theme.icon_pack.rounded.android
+cmd package install-existing com.android.theme.icon_pack.rounded.systemui
+cmd package install-existing com.heytap.openid
+cmd package install-existing com.nearme.statistics.rom
+cmd package install-existing com.coloros.compass2
+cmd package install-existing com.coloros.phonemanager
+cmd package install-existing com.mediatek.omacp
+cmd package install-existing com.coloros.phonenoareainquire
+cmd package install-existing com.android.calllogbackup
+cmd package install-existing com.coloros.blacklistapp
+cmd package install-existing com.coloros.deepthinker
+cmd package install-existing com.heytap.habit.analysis
+cmd package install-existing com.coloros.safecenter
+cmd package install-existing com.google.android.gms
+cmd package install-existing com.android.vending
+cmd package install-existing com.coloros.gamespace
+cmd package install-existing com.google.android.projection.gearhead
+cmd package install-existing com.heytap.market
+cmd package install-existing com.android.bookmarkprovider
+cmd package install-existing com.heytap.browser
+cmd package install-existing com.coloros.floatassistant
+cmd package install-existing com.google.android.apps.maps
+cmd package install-existing com.coloros.securepay
+cmd package install-existing com.android.chrome
+cmd package install-existing com.google.android.tts
+cmd package install-existing com.oppo.ota
+cmd package install-existing com.coloros.gesture
+cmd package install-existing com.heytap.themestore
+cmd package install-existing com.android.nfc
+cmd package install-existing com.google.android.apps.wellbeing
+cmd package install-existing com.nearme.romupdate
+cmd package install-existing com.android.bips
+cmd package install-existing com.coloros.weather.service
+cmd package install-existing com.android.mms.service
+cmd package install-existing com.android.printspooler
+cmd package install-existing com.facebook.system
+cmd package install-existing com.facebook.appmanager
+cmd package install-existing com.facebook.services
+cmd package install-existing com.oppo.logkit
+cmd package install-existing com.coloros.providers.fileinfo
+cmd package install-existing com.google.android.inputmethod.latin
+cmd package install-existing com.oppo.otaui
+cmd package install-existing com.google.android.gm
+cmd package install-existing com.google.android.googlequicksearchbox
+cmd package install-existing com.google.android.onetimeinitializer
+cmd package install-existing com.google.android.gmsintegration
+cmd package install-existing com.google.android.marvin.talkback
+cmd package install-existing com.oppo.operationManual
+cmd package install-existing com.google.android.keep
+cmd package install-existing com.google.android.gsf
+cmd package install-existing com.coloros.gamespaceui
+cmd package install-existing com.coloros.childrenspace
+cmd package install-existing com.coloros.healthcheck
+cmd package install-existing com.google.android.calendar
+cmd package install-existing com.google.android.gms.location.history
+cmd package install-existing com.coloros.onekeylockscreen
+cmd package install-existing com.coloros.oppomultiapp
+cmd package install-existing com.coloros.backuprestore
+cmd package install-existing com.oppo.gestureservice
+cmd package install-existing com.coloros.oppoguardelf
+cmd package install-existing com.coloros.ocrscanner
+cmd package install-existing com.realme.securitycheck
+cmd package install-existing com.oppo.cota
+cmd package install-existing com.coloros.simsettings
+cmd package install-existing com.coloros.smartsidebar
+cmd package install-existing com.nearme.atlas
+cmd package install-existing com.google.android.tag
+cmd package install-existing com.coloros.activation
+cmd package install-existing com.coloros.weather2
+cmd package install-existing com.heytap.mcs
+cmd package install-existing com.coloros.filemanager
+cmd package install-existing com.android.storagemanager
+cmd package install-existing com.oppo.quicksearchbox
+cmd package install-existing com.google.android.feedback
+cmd package install-existing com.coloros.wifibackuprestore
+cmd package install-existing com.google.android.youtube
+cmd package install-existing com.coloros.healthservice
+cmd package install-existing com.coloros.oshare
+cmd package install-existing com.heytap.usercenter
+cmd package install-existing com.heytap.cloud
+cmd package install-existing com.android.fmradio
+cmd package install-existing com.google.android.syncadapters.contacts
+cmd package install-existing com.coloros.widget.smallweather
+cmd package install-existing com.android.stk
+cmd package install-existing com.google.android.youtube
+cmd package install-existing com.heytap.mcs
+cmd package install-existing com.coloros.weather2
+cmd package install-existing com.google.android.setupwizard
+cmd package install-existing com.google.android.apps.restore
+cmd package install-existing com.google.android.partnersetup
+cmd package install-existing com.coloros.smartsidebar
+cmd package install-existing com.nearme.atlas
+cmd package install-existing com.coloros.activation
+cmd package install-existing com.heytap.colorfulengine
+cmd package install-existing com.coloros.focusmode
+cmd package install-existing com.android.carrierdefaultapp
+cmd package install-existing com.coloros.backuprestore.remoteservice
+cmd package install-existing com.oppo.atlas
+cmd package install-existing com.android.carrierconfig
+cmd package install-existing com.google.android.apps.restore
+cmd package install-existing com.android.inputdevices
+cmd package install-existing com.daemon.shelper
+cmd package install-existing com.oppo.cota
+cmd package install-existing com.oppo.sos
+cmd package install-existing com.heytap.pictorial
+cmd package install-existing com.android.managedprovisioning
+cmd package install-existing com.oppo.resmonitor
+cmd package install-existing com.andorid.keychain
+cmd package install-existing com.factory.mmigroup
+cmd package install-existing com.oppo.tzupdate
+cmd package install-existing com.andorid.providers.calendar
+cmd package install-existing com.oppo.decrypt
+cmd package install-existing se.dirac.acs
+cmd package install-existing com.oppo.qualityprotect
+cmd package install-existing com.oppo.partnerbrowsercustomizations
+cmd package install-existing com.oppo.gmail.overlay
+cmd package install-existing com.mediatek.batterywarning
+cmd package install-existing com.google.android.overlay.gmsgsaconfig
+cmd package install-existing com.google.android.overlay.gmsconfig
+cmd package install-existing com.android.wallpaperbackup
+cmd package install-existing com.android.localtransport
+cmd package install-existing com.coloros.activation.overlay.common
+cmd package install-existing com.coloros.blacklistapp.overlay.common
+cmd package install-existing com.android.certinstaller
+cmd package install-existing com.android.cts.ctsshim
+cmd package install-existing com.android.cts.priv.ctsshim
+cmd package install-existing com.android.email.partnerprovider
+cmd package install-existing com.mediatek.gba
+cmd package install-existing com.android.providers.blockednumber
+cmd package install-existing com.coloros.encryption
+cmd package install-existing com.mediatek.ygps
+cmd package install-existing com.android.location.fused
+cmd package install-existing com.android.providers.userdictionary
+cmd package install-existing com.android.theme.icon.teardrop
+cmd package install-existing com.mediatek.sensorhub.ui
+cmd package install-existing xyz.paphonb.quickstepswitcher
+cmd package install-existing com.mediatek.lbs.em2.ui
+cmd package install-existing com.mediatek.frameworkresoverlay
+cmd package install-existing com.google.android.music
+cmd package install-existing com.google.android.videos
+cmd package install-existing com.google.android.play.games
+cmd package install-existing com.google.android.apps.docs
+cmd package install-existing com.epi
+cmd package install-existing com.opera.browser
+cmd package install-existing com.xb.topnews
+cmd package install-existing com.agoda.mobile.consumer
+cmd package install-existing ctrip.english
+cmd package install-existing com.zing.mp3
+cmd package install-existing com.mediatek.entitlement.o2
+cmd package install-existing com.mediatek.atmwifimeta
+cmd package install-existing com.google.android.apps.tachyon
+cmd package install-existing com.facebook.katana
+cmd package install-existing com.google.android.apps.photos
+cmd package install-existing com.google.android.apps.youtube.music
+pm enable com.coloros.exserviceui
+pm enable com.oppo.fingerprints.fingerprintsensortest
+pm enable com.android.pacprocessor
+pm enable com.tencent.soter.soterserver
+pm enable com.google.ar.core
+pm enable com.coloros.athena
+pm enable com.oppo.smartvolume
+pm enable com.android.captiveportallogin
+pm enable com.android.wallpaper.livepicker
+pm enable com.android.theme.color.cinnamon
+pm enable com.android.theme.icon_pack.circular.themepicker
+pm enable com.android.theme.icon_pack.circular.settings
+pm enable com.android.theme.icon_pack.circular.systemui
+pm enable com.android.theme.icon_pack.circular.launcher
+pm enable com.android.theme.icon_pack.circular.android
+pm enable com.android.backupconfirm
+pm enable com.android.carrierconfig.overlay
+pm enable com.android.ons
+pm enable com.android.overlay.modules.ModuleMetadataConfigOverlay
+pm enable com.android.providers.partnerbookmarks
+pm enable com.android.networkstack.permissionconfig
+pm enable com.android.sharedstoragebackup
+pm enable com.android.smspush
+pm enable com.coloros.activation.overlay.common
+pm enable com.coloros.colordirectservice.overlay.common
+pm enable com.coloros.favorite.overlay.common
+pm enable com.coloros.personalassistant.overlay.common
+pm enable com.coloros.prome.service.overlay.common
+pm enable com.coloros.sceneservice.overlay.common
+pm enable com.google.android.overlay.modules.permissioncontroller
+pm enable com.google.android.overlay.modules.ext.services
+pm enable com.google.android.overlay.modules.permissioncontroller.forframework
+pm enable com.google.android.permissioncontroller.overlay.oppo
+pm enable com.oppo.gmail.overlay
+pm enable com.android.companiondevicemanager
+pm enable com.google.android.configupdater
+pm enable com.color.uiengine
+pm enable com.android.vending
+pm enable com.heytap.themestore
+pm enable com.debug.loggerui
+pm enable com.google.android.gms
+pm enable com.coloros.sau
+pm enable com.oppoex.afterservice
+pm enable com.coloros.locationproxy
+pm enable com.coloros.blacklist
+pm enable com.android.providers.calendar
+pm enable com.android.dynsystem
+pm enable com.heytap.cloud
+pm enable com.android.theme.icon_pack.filled.settings
+pm enable com.android.theme.icon_pack.filled.systemui
+pm enable com.android.theme.icon_pack.filled.android
+pm enable com.android.theme.icon_pack.filled.launcher
+pm enable com.android.theme.icon_pack.filled.themepicker
+pm enable com.nearme.gamecenter
+pm enable com.oppo.otaui
+pm enable com.mediatek.gnssdebugreport
+pm enable com.android.theme.color.green
+pm enable com.coloros.wallpapers
+pm enable com.oppo.locationpicker
+pm enable com.coloros.compass2
+pm enable com.mediatek.location.lppe.main
+pm enable com.android.keychain
+pm enable com.google.android.modulemetadata
+pm enable com.ted.number
+pm enable com.android.theme.font.notoserifsource
+pm enable com.android.theme.color.ocean
+pm enable com.coloros.ocrservice
+pm enable com.coloros.ocs.opencapabilityservice
+pm enable com.oppo.multimedia.dirac
+pm enable com.android.theme.color.orchid
+pm enable com.oppo.oppopowermonitor
+pm enable com.google.android.printservice.recommendation
+pm enable com.android.proxyhandler
+pm enable com.android.theme.color.purple
+pm enable com.coloros.appmanager
+pm enable com.coloros.securitypermission
+pm enable com.coloros.notificationmanager
+pm enable com.mediatek.capctrl.service
+pm enable com.coloros.wifibackuprestore
+pm enable com.mediatek.ims
+pm enable com.coloros.uxdesign
+pm enable com.android.htmlviewer
+pm enable com.coloros.weather2
+pm enable com.android.theme.icon.squircle
+pm enable com.android.theme.icon.square
+pm enable com.android.theme.color.space
+pm enable com.android.simappdialog
+pm enable com.android.shell
+pm enable com.coloros.sauhelper
+pm enable com.android.theme.icon.roundedrect
+pm enable com.android.server.wifi.OppoWifi.Service
+pm enable com.android.phone.TelephonyDebugService
+pm enable com.android.theme.icon_pack.rounded.settings
+pm enable com.android.theme.icon_pack.rounded.launcher
+pm enable com.android.theme.icon_pack.rounded.android
+pm enable com.android.theme.icon_pack.rounded.systemui
+pm enable com.heytap.openid
+pm enable com.nearme.statistics.rom
+pm enable com.coloros.compass2
+pm enable com.coloros.phonemanager
+pm enable com.mediatek.omacp
+pm enable com.coloros.phonenoareainquire
+pm enable com.android.calllogbackup
+pm enable com.coloros.blacklistapp
+pm enable com.coloros.deepthinker
+pm enable com.heytap.habit.analysis
+pm enable com.coloros.safecenter
+pm enable com.google.android.gms
+pm enable com.android.vending
+pm enable com.coloros.gamespace
+pm enable com.google.android.projection.gearhead
+pm enable com.heytap.market
+pm enable com.android.bookmarkprovider
+pm enable com.heytap.browser
+pm enable com.coloros.floatassistant
+pm enable com.google.android.apps.maps
+pm enable com.coloros.securepay
+pm enable com.android.chrome
+pm enable com.google.android.tts
+pm enable com.oppo.ota
+pm enable com.coloros.gesture
+pm enable com.heytap.themestore
+pm enable com.android.nfc
+pm enable com.google.android.apps.wellbeing
+pm enable com.nearme.romupdate
+pm enable com.android.bips
+pm enable com.coloros.weather.service
+pm enable com.android.mms.service
+pm enable com.android.printspooler
+pm enable com.facebook.system
+pm enable com.facebook.appmanager
+pm enable com.facebook.services
+pm enable com.oppo.logkit
+pm enable com.coloros.providers.fileinfo
+pm enable com.google.android.inputmethod.latin
+pm enable com.oppo.otaui
+pm enable com.google.android.gm
+pm enable com.google.android.googlequicksearchbox
+pm enable com.google.android.onetimeinitializer
+pm enable com.google.android.gmsintegration
+pm enable com.google.android.marvin.talkback
+pm enable com.oppo.operationManual
+pm enable com.google.android.keep
+pm enable com.google.android.gsf
+pm enable com.coloros.gamespaceui
+pm enable com.coloros.childrenspace
+pm enable com.coloros.healthcheck
+pm enable com.google.android.calendar
+pm enable com.google.android.gms.location.history
+pm enable com.coloros.onekeylockscreen
+pm enable com.coloros.oppomultiapp
+pm enable com.coloros.backuprestore
+pm enable com.oppo.gestureservice
+pm enable com.coloros.oppoguardelf
+pm enable com.coloros.ocrscanner
+pm enable com.realme.securitycheck
+pm enable com.oppo.cota
+pm enable com.coloros.simsettings
+pm enable com.coloros.smartsidebar
+pm enable com.nearme.atlas
+pm enable com.google.android.tag
+pm enable com.coloros.activation
+pm enable com.coloros.weather2
+pm enable com.heytap.mcs
+pm enable com.coloros.filemanager
+pm enable com.android.storagemanager
+pm enable com.oppo.quicksearchbox
+pm enable com.google.android.feedback
+pm enable com.coloros.wifibackuprestore
+pm enable com.google.android.youtube
+pm enable com.coloros.healthservice
+pm enable com.coloros.oshare
+pm enable com.heytap.usercenter
+pm enable com.heytap.cloud
+pm enable com.android.fmradio
+pm enable com.google.android.syncadapters.contacts
+pm enable com.coloros.widget.smallweather
+pm enable com.android.stk
+pm enable com.google.android.youtube
+pm enable com.heytap.mcs
+pm enable com.coloros.weather2
+pm enable com.google.android.setupwizard
+pm enable com.google.android.apps.restore
+pm enable com.google.android.partnersetup
+pm enable com.coloros.smartsidebar
+pm enable com.nearme.atlas
+pm enable com.coloros.activation
+pm enable com.heytap.colorfulengine
+pm enable com.coloros.focusmode
+pm enable com.android.carrierdefaultapp
+pm enable com.coloros.backuprestore.remoteservice
+pm enable com.oppo.atlas
+pm enable com.android.carrierconfig
+pm enable com.google.android.apps.restore
+pm enable com.android.inputdevices
+pm enable com.daemon.shelper
+pm enable com.oppo.cota
+pm enable com.oppo.sos
+pm enable com.heytap.pictorial
+pm enable com.android.managedprovisioning
+pm enable com.oppo.resmonitor
+pm enable com.andorid.keychain
+pm enable com.factory.mmigroup
+pm enable com.oppo.tzupdate
+pm enable com.andorid.providers.calendar
+pm enable com.oppo.decrypt
+pm enable se.dirac.acs
+pm enable com.oppo.qualityprotect
+pm enable com.oppo.partnerbrowsercustomizations
+pm enable com.oppo.gmail.overlay
+pm enable com.mediatek.batterywarning
+pm enable com.google.android.overlay.gmsgsaconfig
+pm enable com.google.android.overlay.gmsconfig
+pm enable com.android.wallpaperbackup
+pm enable com.android.localtransport
+pm enable com.coloros.activation.overlay.common
+pm enable com.coloros.blacklistapp.overlay.common
+pm enable com.android.cts.ctsshim
+pm enable com.android.cts.priv.ctsshim
+pm enable com.android.email.partnerprovider
+pm enable com.mediatek.gba
+pm enable com.android.providers.blockednumber
+pm enable com.coloros.encryption
+pm enable com.mediatek.ygps
+pm enable com.android.location.fused
+pm enable com.android.providers.userdictionary
+pm enable com.android.theme.icon.teardrop
+pm enable com.mediatek.sensorhub.ui
+pm enable xyz.paphonb.quickstepswitcher
+pm enable com.mediatek.lbs.em2.ui
+pm enable com.mediatek.frameworkresoverlay
+pm enable com.google.android.music
+pm enable com.google.android.videos
+pm enable com.google.android.play.games
+pm enable com.google.android.apps.docs
+pm enable com.epi
+pm enable com.opera.browser
+pm enable com.xb.topnews
+pm enable com.agoda.mobile.consumer
+pm enable ctrip.english
+pm enable com.zing.mp3
+pm enable com.mediatek.entitlement.o2
+pm enable com.mediatek.atmwifimeta
+pm enable com.google.android.apps.tachyon
+pm enable com.facebook.katana
+pm enable com.google.android.apps.photos
+pm enable com.google.android.apps.youtube.music
+pm enable com.android.internal.systemui.navbar.twobutton
+pm enable com.android.internal.systemui.navbar.threebutton
+pm enable com.android.internal.systemui.navbar.gestural_wide_back
+pm enable com.android.internal.systemui.navbar.gestural__extra_wide_back
+pm enable com.android.internal.systemui.navbar.gestural
+pm enable com.android.internal.systemui.navbar.gestural_narrow_back
+pm enable com.mediatek.mdmconfig
+pm enable com.mediatek.mdmlsample
+pm enable com.oppo.engineermode.camera
+pm enable com.oppo.engineermode
+pm enable com.oppo.engineermode.network
+pm enable com.mediatek.engineermode
+pm enable com.android.server.wifi
+pm enable com.oppo.lfeh
+pm enable com.android.hotspot2
+pm enable com.coloros.bootreg
+pm enable com.oppo.rftoolkit
+pm enable com.android.se
+pm enable com.wapi.wapicertmanager
+pm enable com.mediatek.gnss.nonframeworklbs
+pm enable com.oppo.postmanservice
+pm enable android.auto_generated_rro_vendor__
+pm enable android.auto_generated_rro_product__
+pm enable com.android.certinstaller
+
+#uninstall_kn9872
+
+#kn9872
+wm size reset
+wm density reset
+rm -rf /data/adb/modules/flushram
+rm -f /data/swapfileKN9872
+am start -a android.intent.action.MAIN -e message 'Rebooting in 10 seconds...' -n com.rja.utility/.ShowToast
+rm -rf /data/adb/modules/KN9872_Un && reboot

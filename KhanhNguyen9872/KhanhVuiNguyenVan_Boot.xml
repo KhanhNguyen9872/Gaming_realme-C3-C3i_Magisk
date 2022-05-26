@@ -1,0 +1,5 @@
+#KhanhNguyen9872-Swap2GB
+echo "performance" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+echo "performance" > /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
+echo "Y" > /sys/module/workqueue/parameters/power_efficient
+swapon /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img

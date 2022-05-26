@@ -1,0 +1,4 @@
+#reset_kn9872
+su -c "wm size reset"
+su -c "wm density reset"
+su -c "am start -a android.intent.action.MAIN -e message 'Reset Resolution and DPI' -n com.rja.utility/.ShowToast"

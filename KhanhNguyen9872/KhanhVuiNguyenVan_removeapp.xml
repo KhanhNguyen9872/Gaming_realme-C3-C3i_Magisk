@@ -1,0 +1,321 @@
+#!/system/bin/sh
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_cleanram
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/rollbackapp
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/removeapp
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/d
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/e
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/rreset
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/540
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/f1vm
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/480
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/420
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/360
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swapon
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swapoff
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/messenger
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/zalo
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/k
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/macrorify
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/lienquan
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/genshin
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/youtubevanced
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/autoclicker
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap0
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap256
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap512
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap1024
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap1536
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap2048
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/khanh_swap2560
+chmod 777 /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img
+mkswap /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img
+pm disable-user --user 0 com.oppo.launcher
+pm uninstall --user 0 com.oppo.launcher
+pm disable-user --user 0 com.android.certinstaller
+pm uninstall --user 0 com.nearme.gamecenter
+pm disable-user --user 0 com.android.internal.systemui.navbar.twobutton
+pm disable-user --user 0 com.android.internal.systemui.navbar.threebutton
+pm disable-user --user 0 com.android.internal.systemui.navbar.gestural_wide_back
+pm disable-user --user 0 com.android.internal.systemui.navbar.gestural__extra_wide_back
+pm disable-user --user 0 com.android.internal.systemui.navbar.gestural
+pm disable-user --user 0 com.android.internal.systemui.navbar.gestural_narrow_back
+pm disable-user --user 0 com.mediatek.mdmconfig
+pm disable-user --user 0 com.mediatek.mdmlsample
+pm disable-user --user 0 com.oppo.engineermode.camera
+pm disable-user --user 0 com.oppo.engineermode
+pm disable-user --user 0 com.oppo.engineermode.network
+pm disable-user --user 0 com.mediatek.engineermode
+pm disable-user --user 0 com.android.server.wifi
+pm disable-user --user 0 com.oppo.lfeh
+pm disable-user --user 0 com.android.hotspot2
+pm disable-user --user 0 com.coloros.bootreg
+pm disable-user --user 0 com.oppo.rftoolkit
+pm disable-user --user 0 com.android.se
+pm disable-user --user 0 com.wapi.wapicertmanager
+pm disable-user --user 0 com.mediatek.gnss.nonframeworklbs
+pm disable-user --user 0 com.oppo.postmanservice
+pm disable-user --user 0 android.auto_generated_rro_vendor__
+pm disable-user --user 0 android.auto_generated_rro_product__
+pm disable-user --user 0 com.tencent.soter.soterserver
+pm disable-user --user 0 com.google.ar.core
+pm disable-user --user 0 com.coloros.athena
+pm disable-user --user 0 com.oppo.smartvolume
+pm disable-user --user 0 com.android.captiveportallogin
+pm disable-user --user 0 com.android.wallpaper.livepicker
+pm disable-user --user 0 com.android.theme.color.cinnamon
+pm disable-user --user 0 com.android.theme.icon_pack.circular.themepicker
+pm disable-user --user 0 com.android.theme.icon_pack.circular.settings
+pm disable-user --user 0 com.android.theme.icon_pack.circular.systemui
+pm disable-user --user 0 com.android.theme.icon_pack.circular.launcher
+pm disable-user --user 0 com.android.theme.icon_pack.circular.android
+pm disable-user --user 0 com.android.backupconfirm
+pm disable-user --user 0 com.android.carrierconfig.overlay
+pm disable-user --user 0 com.android.ons
+pm disable-user --user 0 com.android.overlay.modules.ModuleMetadataConfigOverlay
+pm disable-user --user 0 com.android.providers.partnerbookmarks
+pm disable-user --user 0 com.android.networkstack.permissionconfig
+pm disable-user --user 0 com.android.sharedstoragebackup
+pm disable-user --user 0 com.android.smspush
+pm disable-user --user 0 com.coloros.activation.overlay.common
+pm disable-user --user 0 com.coloros.colordirectservice.overlay.common
+pm disable-user --user 0 com.coloros.favorite.overlay.common
+pm disable-user --user 0 com.coloros.personalassistant.overlay.common
+pm disable-user --user 0 com.coloros.prome.service.overlay.common
+pm disable-user --user 0 com.coloros.sceneservice.overlay.common
+pm disable-user --user 0 com.google.android.overlay.modules.permissioncontroller
+pm disable-user --user 0 com.google.android.overlay.modules.ext.services
+pm disable-user --user 0 com.google.android.overlay.modules.permissioncontroller.forframework
+pm disable-user --user 0 com.google.android.permissioncontroller.overlay.oppo
+pm disable-user --user 0 com.oppo.gmail.overlay
+pm disable-user --user 0 com.android.companiondevicemanager
+pm disable-user --user 0 com.google.android.configupdater
+pm disable-user --user 0 com.color.uiengine
+pm disable-user --user 0 com.android.vending
+pm disable-user --user 0 com.heytap.themestore
+pm disable-user --user 0 com.debug.loggerui
+pm disable-user --user 0 com.google.android.gms
+pm disable-user --user 0 com.coloros.sau
+pm disable-user --user 0 com.oppoex.afterservice
+pm disable-user --user 0 com.coloros.locationproxy
+pm disable-user --user 0 com.android.providers.calendar
+pm disable-user --user 0 com.android.dynsystem
+pm disable-user --user 0 com.heytap.cloud
+pm disable-user --user 0 com.android.theme.icon_pack.filled.settings
+pm disable-user --user 0 com.android.theme.icon_pack.filled.systemui
+pm disable-user --user 0 com.android.theme.icon_pack.filled.android
+pm disable-user --user 0 com.android.theme.icon_pack.filled.launcher
+pm disable-user --user 0 com.android.theme.icon_pack.filled.themepicker
+pm disable-user --user 0 com.nearme.gamecenter
+pm disable-user --user 0 com.oppo.otaui
+pm disable-user --user 0 com.mediatek.gnssdebugreport
+pm disable-user --user 0 com.android.theme.color.green
+pm disable-user --user 0 com.coloros.wallpapers
+pm disable-user --user 0 com.oppo.locationpicker
+pm disable-user --user 0 com.coloros.compass2
+pm disable-user --user 0 com.mediatek.location.lppe.main
+pm disable-user --user 0 com.android.keychain
+pm disable-user --user 0 com.google.android.modulemetadata
+pm disable-user --user 0 com.ted.number
+pm disable-user --user 0 com.android.theme.font.notoserifsource
+pm disable-user --user 0 com.android.theme.color.ocean
+pm disable-user --user 0 com.coloros.ocrservice
+pm disable-user --user 0 com.coloros.ocs.opencapabilityservice
+pm disable-user --user 0 com.oppo.multimedia.dirac
+pm disable-user --user 0 com.android.theme.color.orchid
+pm disable-user --user 0 com.oppo.oppopowermonitor
+pm disable-user --user 0 com.google.android.printservice.recommendation
+pm disable-user --user 0 com.android.proxyhandler
+pm disable-user --user 0 com.android.theme.color.purple
+pm disable-user --user 0 com.coloros.appmanager
+pm disable-user --user 0 com.coloros.securitypermission
+pm disable-user --user 0 com.coloros.notificationmanager
+pm disable-user --user 0 com.mediatek.capctrl.service
+pm disable-user --user 0 com.coloros.wifibackuprestore
+pm disable-user --user 0 com.mediatek.ims
+pm disable-user --user 0 com.coloros.uxdesign
+pm disable-user --user 0 com.android.htmlviewer
+pm disable-user --user 0 com.coloros.weather2
+pm disable-user --user 0 com.android.theme.icon.squircle
+pm disable-user --user 0 com.android.theme.icon.square
+pm disable-user --user 0 com.android.theme.color.space
+pm disable-user --user 0 com.android.simappdialog
+pm disable-user --user 0 com.android.shell
+pm disable-user --user 0 com.coloros.sauhelper
+pm disable-user --user 0 com.android.theme.icon.roundedrect
+pm disable-user --user 0 com.android.server.wifi.OppoWifi.Service
+pm disable-user --user 0 com.android.phone.TelephonyDebugService
+pm disable-user --user 0 com.android.theme.icon_pack.rounded.settings
+pm disable-user --user 0 com.android.theme.icon_pack.rounded.launcher
+pm disable-user --user 0 com.android.theme.icon_pack.rounded.android
+pm disable-user --user 0 com.android.theme.icon_pack.rounded.systemui
+pm disable-user --user 0 com.heytap.openid
+pm disable-user --user 0 com.nearme.statistics.rom
+pm disable-user --user 0 com.coloros.compass2
+pm disable-user --user 0 com.coloros.phonemanager
+pm disable-user --user 0 com.mediatek.omacp
+pm disable-user --user 0 com.coloros.phonenoareainquire
+pm disable-user --user 0 com.android.calllogbackup
+pm disable-user --user 0 com.coloros.deepthinker
+pm disable-user --user 0 com.heytap.habit.analysis
+pm disable-user --user 0 com.coloros.safecenter
+pm disable-user --user 0 com.google.android.gms
+pm disable-user --user 0 com.android.vending
+pm disable-user --user 0 com.coloros.gamespace
+pm disable-user --user 0 com.google.android.projection.gearhead
+pm disable-user --user 0 com.heytap.market
+pm disable-user --user 0 com.android.bookmarkprovider
+pm disable-user --user 0 com.heytap.browser
+pm disable-user --user 0 com.coloros.floatassistant
+pm disable-user --user 0 com.google.android.apps.maps
+pm disable-user --user 0 com.coloros.securepay
+pm disable-user --user 0 com.android.chrome
+pm disable-user --user 0 com.google.android.tts
+pm disable-user --user 0 com.oppo.ota
+pm disable-user --user 0 com.coloros.gesture
+pm disable-user --user 0 com.heytap.themestore
+pm disable-user --user 0 com.android.nfc
+pm disable-user --user 0 com.google.android.apps.wellbeing
+pm disable-user --user 0 com.nearme.romupdate
+pm disable-user --user 0 com.android.bips
+pm disable-user --user 0 com.coloros.weather.service
+pm disable-user --user 0 com.android.mms.service
+pm disable-user --user 0 com.android.printspooler
+pm disable-user --user 0 com.facebook.system
+pm disable-user --user 0 com.facebook.appmanager
+pm disable-user --user 0 com.facebook.services
+pm disable-user --user 0 com.oppo.logkit
+pm disable-user --user 0 com.coloros.providers.fileinfo
+pm disable-user --user 0 com.google.android.inputmethod.latin
+pm disable-user --user 0 com.oppo.otaui
+pm disable-user --user 0 com.google.android.gm
+pm disable-user --user 0 com.google.android.googlequicksearchbox
+pm disable-user --user 0 com.google.android.onetimeinitializer
+pm disable-user --user 0 com.google.android.gmsintegration
+pm disable-user --user 0 com.google.android.marvin.talkback
+pm disable-user --user 0 com.oppo.operationManual
+pm disable-user --user 0 com.google.android.keep
+pm disable-user --user 0 com.google.android.gsf
+pm uninstall --user 0 com.coloros.gamespaceui
+pm disable-user --user 0 com.coloros.childrenspace
+pm disable-user --user 0 com.coloros.healthcheck
+pm disable-user --user 0 com.google.android.calendar
+pm disable-user --user 0 com.google.android.gms.location.history
+pm disable-user --user 0 com.coloros.onekeylockscreen
+pm disable-user --user 0 com.coloros.oppomultiapp
+pm disable-user --user 0 com.coloros.backuprestore
+pm disable-user --user 0 com.oppo.gestureservice
+pm disable-user --user 0 com.coloros.oppoguardelf
+pm disable-user --user 0 com.coloros.ocrscanner
+pm disable-user --user 0 com.realme.securitycheck
+pm disable-user --user 0 com.oppo.cota
+pm disable-user --user 0 com.coloros.simsettings
+pm disable-user --user 0 com.coloros.smartsidebar
+pm disable-user --user 0 com.nearme.atlas
+pm disable-user --user 0 com.google.android.tag
+pm disable-user --user 0 com.coloros.activation
+pm disable-user --user 0 com.coloros.weather2
+pm disable-user --user 0 com.heytap.mcs
+pm disable-user --user 0 com.coloros.filemanager
+pm disable-user --user 0 com.android.storagemanager
+pm disable-user --user 0 com.oppo.quicksearchbox
+pm disable-user --user 0 com.google.android.feedback
+pm disable-user --user 0 com.coloros.wifibackuprestore
+pm disable-user --user 0 com.google.android.youtube
+pm disable-user --user 0 com.coloros.healthservice
+pm disable-user --user 0 com.coloros.oshare
+pm uninstall --user 0 com.heytap.usercenter
+pm uninstall --user 0 com.heytap.cloud
+pm disable-user --user 0 com.android.fmradio
+pm disable-user --user 0 com.google.android.syncadapters.contacts
+pm disable-user --user 0 com.coloros.widget.smallweather
+pm disable-user --user 0 com.android.stk
+pm uninstall --user 0 com.google.android.youtube
+pm disable-user --user 0 com.heytap.mcs
+pm disable-user --user 0 com.coloros.weather2
+pm disable-user --user 0 com.google.android.setupwizard
+pm disable-user --user 0 com.google.android.apps.restore
+pm disable-user --user 0 com.google.android.partnersetup
+pm disable-user --user 0 com.coloros.smartsidebar
+pm disable-user --user 0 com.nearme.atlas
+pm disable-user --user 0 com.coloros.activation
+pm disable-user --user 0 com.heytap.colorfulengine
+pm disable-user --user 0 com.coloros.focusmode
+pm disable-user --user 0 com.android.carrierdefaultapp
+pm disable-user --user 0 com.coloros.backuprestore.remoteservice
+pm disable-user --user 0 com.oppo.atlas
+pm disable-user --user 0 com.android.carrierconfig
+pm disable-user --user 0 com.google.android.apps.restore
+pm disable-user --user 0 com.android.inputdevices
+pm disable-user --user 0 com.daemon.shelper
+pm disable-user --user 0 com.oppo.cota
+pm disable-user --user 0 com.oppo.sos
+pm disable-user --user 0 com.heytap.pictorial
+pm disable-user --user 0 com.android.managedprovisioning
+pm disable-user --user 0 com.oppo.resmonitor
+pm disable-user --user 0 com.andorid.keychain
+pm disable-user --user 0 com.factory.mmigroup
+pm disable-user --user 0 com.oppo.tzupdate
+pm disable-user --user 0 com.andorid.providers.calendar
+pm disable-user --user 0 com.oppo.decrypt
+pm disable-user --user 0 se.dirac.acs
+pm disable-user --user 0 com.oppo.qualityprotect
+pm disable-user --user 0 com.oppo.partnerbrowsercustomizations
+pm disable-user --user 0 com.oppo.gmail.overlay
+pm disable-user --user 0 com.mediatek.batterywarning
+pm disable-user --user 0 com.google.android.overlay.gmsgsaconfig
+pm disable-user --user 0 com.google.android.overlay.gmsconfig
+pm disable-user --user 0 com.android.wallpaperbackup
+pm disable-user --user 0 com.android.localtransport
+pm disable-user --user 0 com.coloros.activation.overlay.common
+pm disable-user --user 0 com.android.cts.ctsshim
+pm disable-user --user 0 com.android.cts.priv.ctsshim
+pm disable-user --user 0 com.android.email.partnerprovider
+pm disable-user --user 0 com.mediatek.gba
+pm disable-user --user 0 com.android.providers.blockednumber
+pm disable-user --user 0 com.coloros.encryption
+pm disable-user --user 0 com.android.theme.icon.teardrop
+pm uninstall --user 0 xyz.paphonb.quickstepswitcher
+pm uninstall --user 0 com.google.android.music
+pm uninstall --user 0 com.google.android.videos
+pm uninstall --user 0 com.google.android.play.games
+pm uninstall --user 0 com.google.android.apps.docs
+pm uninstall --user 0 com.epi
+pm uninstall --user 0 com.opera.browser
+pm uninstall --user 0 com.xb.topnews
+pm uninstall --user 0 com.agoda.mobile.consumer
+pm uninstall --user 0 ctrip.english
+pm uninstall --user 0 com.zing.mp3
+pm uninstall --user 0 com.mediatek.frameworkresoverlay
+pm uninstall --user 0 com.mediatek.ygps
+pm disable-user --user 0 com.android.location.fused
+pm disable-user --user 0 com.android.providers.userdictionary
+pm disable-user --user 0 com.mediatek.sensorhub.ui
+pm disable-user --user 0 com.android.pacprocessor
+pm disable-user --user 0 com.mediatek.lbs.em2.ui
+pm disable-user --user 0 com.oppo.fingerprints.fingerprintsensortest
+pm disable-user --user 0 com.coloros.exserviceui
+pm disable-user --user 0 com.mediatek.entitlement.o2
+pm disable-user --user 0 com.mediatek.atmwifimeta
+pm uninstall --user 0 com.google.android.apps.tachyon
+pm uninstall --user 0 com.facebook.katana
+pm uninstall --user 0 com.google.android.apps.photos
+pm uninstall --user 0 com.google.android.apps.youtube.music
+pm uninstall --user 0 com.oppo.multimedia.dirac
+pm uninstall --user 0 com.android.vending
+pm uninstall --user 0 com.google.android.configupdater
+pm uninstall --user 0 com.google.android.gms
+pm uninstall --user 0 com.google.android.gsf
+pm uninstall --user 0 com.google.android.partnersetup
+##
+su -c "settings put secure ui_night_mode 2"
+su -c "sh /system/xbin/d"
+#installapk_kn9872
+cp -Ri /data/adb/modules/KhanhNguyen9872_RMX2021/KN9872_Un/flushram /data/adb/modules
+#nextboot_kn9872
+rm -rf /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan_Temp
+rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/service.sh
+su -c "am start -a android.intent.action.MAIN -e message 'Rebooting in 10 seconds...' -n com.rja.utility/.ShowToast"
+sleep 10
+rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/removeapp1 && reboot
+#exit
+##

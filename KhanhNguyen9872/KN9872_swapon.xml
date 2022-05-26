@@ -1,0 +1,2 @@
+#swapon_kn9872
+su -c "swapon /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img"

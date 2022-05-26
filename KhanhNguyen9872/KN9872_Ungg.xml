@@ -1,0 +1,12 @@
+#kn9872_ungg
+su -c "pm disable-user --user 0 com.google.android.gms"
+su -c "pm disable-user --user 0 com.android.vending"
+su -c "pm disable-user --user 0 com.google.android.configupdater"
+su -c "pm disable-user --user 0 com.google.android.gsf"
+su -c "pm disable-user --user 0 com.google.android.partnersetup"
+su -c "pm uninstall -k --user 0 com.google.android.gms"
+su -c "pm uninstall -k --user 0 com.android.vending"
+su -c "pm uninstall -k --user 0 com.google.android.configupdater"
+su -c "pm uninstall -k --user 0 com.google.android.gsf"
+su -c "pm uninstall -k --user 0 com.google.android.partnersetup"
+su -c "am start -a android.intent.action.MAIN -e message 'Disabled Google Services (Keep Data)' -n com.rja.utility/.ShowToast"

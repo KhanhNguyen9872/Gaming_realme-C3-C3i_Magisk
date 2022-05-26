@@ -1,0 +1,3 @@
+#0.25g_kn9872
+su -c "swapoff /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img && rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img"
+su -c "am start -a android.intent.action.MAIN -e message 'Disabled Swap (0MB)' -n com.rja.utility/.ShowToast"

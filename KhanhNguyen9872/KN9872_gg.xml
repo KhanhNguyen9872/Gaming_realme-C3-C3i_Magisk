@@ -1,0 +1,12 @@
+#kn9872_gg
+su -c "cmd package install-existing com.google.android.gms"
+su -c "cmd package install-existing com.android.vending"
+su -c "cmd package install-existing com.google.android.configupdater"
+su -c "cmd package install-existing com.google.android.gsf"
+su -c "cmd package install-existing com.google.android.partnersetup"
+su -c "pm enable com.google.android.gms"
+su -c "pm enable com.android.vending"
+su -c "pm enable com.google.android.configupdater"
+su -c "pm enable com.google.android.gsf"
+su -c "pm enable com.google.android.partnersetup"
+su -c "am start -a android.intent.action.MAIN -e message 'Enabled Google Services' -n com.rja.utility/.ShowToast"

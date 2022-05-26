@@ -1,0 +1,2 @@
+#zalo_kn9872
+su -c "pm grant com.zing.zalo android.permission.SYSTEM_ALERT_WINDOW"

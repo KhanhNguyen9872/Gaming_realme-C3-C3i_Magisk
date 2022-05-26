@@ -1,0 +1,4 @@
+#1g_kn9872
+su -c "swapoff /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img && rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img"
+su -c "dd if=/dev/zero of=/data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img bs=1000000 count=1024 && mkswap /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img"
+su -c "am start -a android.intent.action.MAIN -e message 'Please reboot device to apply change (1024MB)' -n com.rja.utility/.ShowToast"

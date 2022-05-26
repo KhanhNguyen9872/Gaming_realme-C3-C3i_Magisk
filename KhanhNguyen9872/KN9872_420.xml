@@ -1,0 +1,4 @@
+#420p_kn9872
+su -c "wm size 420x933"
+su -c "wm density 180"
+su -c "am start -a android.intent.action.MAIN -e message '420P - 180 DPI' -n com.rja.utility/.ShowToast"
