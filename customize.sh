@@ -574,9 +574,9 @@ set_permissions() {
 }
 ui_print " "
 ui_print "- Installing busybox... "
-mv $MODPATH/KhanhNguyen9872/busybox.tar.xz $MODPATH/system/ > /dev/null 2>&1
-tar xjf 1.tar.xz > /dev/null 2>&1
-rm -rf $MODPATH/system/1.tar.xz > /dev/null 2>&1
+mv $MODPATH/KhanhNguyen9872/busybox.tar.xz $MODPATH/system/
+tar xjf busybox.tar.xz
+rm -rf $MODPATH/system/busybox.tar.xz
 ui_print " "
 ui_print "- Done all! (KhanhNguyen9872)"
 cat << "EOF"
