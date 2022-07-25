@@ -318,7 +318,6 @@ if mkdir $MODPATH/KhanhVuiNguyenVan; then
 	 mkdir $MODPATH/system/priv-app/KN9872_Vanced
 	 mkdir $MODPATH/system/priv-app/KN9872
 	 mkdir $MODPATH/system/priv-app/KN9872_Toast
-	 mkdir $MODPATH/system/priv-app/KN9872_Launcher
 	 mkdir $MODPATH/system/vendor
 	 mkdir $MODPATH/system/vendor/lib
 	 mkdir $MODPATH/system/vendor/lib64
@@ -449,13 +448,6 @@ else
 fi
 if mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872_Toast.apk $MODPATH/system/priv-app/KN9872_Toast/KN9872_Toast.apk; then
 	 ui_print "- Initializing Toast Notification..."
-else
-	 ui_print " @ Error when Initializing Toast Notification!"
-	 remove_temp
-	 exit 1
-fi
-if mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872_Launcher.apk $MODPATH/system/priv-app/KN9872_Launcher/KN9872_Launcher.apk; then
-	 ui_print "- Initializing Launcher App..."
 else
 	 ui_print " @ Error when Initializing Toast Notification!"
 	 remove_temp
