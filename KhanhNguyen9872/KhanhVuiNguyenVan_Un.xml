@@ -1,4 +1,4 @@
 #KhanhVuiNguyenVan_uninstall
 #start_process_KN9872
 cp -Ri /data/adb/modules/KhanhNguyen9872_RMX2021/KN9872_Un /data/adb/modules/KN9872_Un
-rm -rf /data/adb/modules/KhanhNguyen9872_RMX2021 && reboot
+rm -rf /data/adb/modules/KhanhNguyen9872_RMX2021; reboot

@@ -572,12 +572,6 @@ on_install() {
 set_permissions() {
   set_perm_recursive $MODPATH 0 0 0755 0644
 }
-ui_print " "
-ui_print "- Installing busybox... "
-mv $MODPATH/KhanhNguyen9872/busybox.tar.xz $MODPATH/system/
-tar xjf busybox.tar.xz
-rm -rf $MODPATH/system/busybox.tar.xz
-ui_print " "
 ui_print "- Done all! (KhanhNguyen9872)"
 cat << "EOF"
 
