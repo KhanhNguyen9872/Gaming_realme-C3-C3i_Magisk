@@ -501,22 +501,7 @@ EOF
 		 fi
 	 fi
 fi
-ui_print " "
-ui_print " * Please wait for setting up PixelUI..."
-if mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/product $MODPATH/system; then
-	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/privapp-permissions-com.google.android.apps.nexuslauncher.xml $MODPATH/system/etc/permissions/privapp-permissions-com.google.android.apps.nexuslauncher.xml
-	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/com.google.android.apps.nexuslauncher-hiddenapi-package-whitelist.xml $MODPATH/system/etc/sysconfig/com.google.android.apps.nexuslauncher-hiddenapi-package-whitelist.xml
-	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/overlays $MODPATH
-	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/sepolicy.rule $MODPATH/sepolicy.rule
-	 ui_print "- PixelUI installed!"
-else
-cat << "EOF"
-- 𝗘𝗿𝗿𝗼𝗿 𝘄𝗵𝗲𝗻 𝗰𝗼𝗻𝗳𝗶𝗴!
-- 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗰𝗮𝗻𝗻𝗼𝘁 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗲!
-EOF
-	 remove_temp
-	 exit 1
-fi
+mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/sepolicy.rule $MODPATH/sepolicy.rule
 ui_print " "
 ui_print " * Please wait for config change resolution script..."
 if mv $MODPATH/KhanhNguyen9872/KN9872_re.xml $MODPATH/system/xbin/rreset; then
