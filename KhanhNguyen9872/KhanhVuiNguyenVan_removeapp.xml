@@ -302,16 +302,14 @@ pm uninstall --user 0 com.google.android.gsf
 pm uninstall --user 0 com.google.android.partnersetup
 ##
 su -c "settings put secure ui_night_mode 2"
-su -c "wm size reset"
-su -c "wm density 272"
 su -c "sh /system/xbin/d"
 #installapk_kn9872
 cp -Ri /data/adb/modules/KhanhNguyen9872_RMX2021/KN9872_Un/flushram /data/adb/modules
 #nextboot_kn9872
 rm -rf /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan_Temp
 rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/service.sh
-su -c "am start -a android.intent.action.MAIN -e message 'Rebooting in 15 seconds...' -n com.rja.utility/.ShowToast"
-sleep 15
+su -c "am start -a android.intent.action.MAIN -e message 'Rebooting in 10 seconds...' -n com.rja.utility/.ShowToast"
+sleep 10
 rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/system/xbin/removeapp1 && reboot
 #exit
 ##

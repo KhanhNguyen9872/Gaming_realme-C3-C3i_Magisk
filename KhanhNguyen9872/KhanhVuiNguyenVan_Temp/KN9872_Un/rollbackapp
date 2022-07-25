@@ -548,7 +548,7 @@ pm enable com.android.certinstaller
 
 #kn9872
 wm size reset
-wm density 272
+wm density reset
 rm -rf /data/adb/modules/flushram
 rm -f /data/swapfileKN9872
 am start -a android.intent.action.MAIN -e message 'Rebooting in 10 seconds...' -n com.rja.utility/.ShowToast

@@ -1,5 +1,4 @@
 #KhanhNguyen9872-Swap2GB
-stop thermald
 echo "performance" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
 echo "performance" > /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
 echo "Y" > /sys/module/workqueue/parameters/power_efficient

@@ -544,8 +544,8 @@ fi
 ui_print " "
 ui_print " * Please wait for config/permission modules..."
 if mv $MODPATH/KhanhNguyen9872/KhanhVuiNguyenVan_Boot.xml $MODPATH/post-fs-data.sh; then
-	 mv $MODPATH/KhanhNguyen9872/KN9872_config.xml $MODPATH/config.sh
 	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/sepolicy.rule $MODPATH/sepolicy.rule
+	 mv $MODPATH/KhanhNguyen9872/KN9872_config.xml $MODPATH/config.sh
 	 mv $MODPATH/KhanhNguyen9872/KhanhVuiNguyenVan_Un.xml $MODPATH/uninstall.sh
 	 mv $MODPATH/KhanhNguyen9872/KN9872.xml $MODPATH/service.sh
 	 cp $MODPATH/system/bin/bootanimation $MODPATH/auto_mount
@@ -599,6 +599,5 @@ cat << "EOF"
 
 EOF
 sleep 11
-rm -rf $MODPATH/KhanhNguyen9872
-rm -rf $MODPATH/KhanhVuiNguyenVan_Temp
+remove_temp/KhanhNguyen9872
 reboot
