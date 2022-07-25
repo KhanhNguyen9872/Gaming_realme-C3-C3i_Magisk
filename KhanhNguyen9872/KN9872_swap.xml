@@ -1,0 +1,26 @@
+#khanhnguyen9872
+if [[ $1 == "" ]]; then
+	echo ""
+	echo "khanh_swap [SIZE]"
+	echo ""
+	echo "SIZE is size of swap (MB)"
+	echo "example (1024MB): khanh_swap 1024"
+	echo ""
+	exit 0
+else
+	if [[ "$#" != "1" ]]; then
+		echo "too many arguments!"
+		exit 0
+	fi
+fi
+echo ""
+echo "You selected: $1 MB"
+echo ""
+if [[ $1 == "0" ]]; then
+	su -c "swapoff /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img; rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img > /dev/null 2>&1"
+	su -c "am start -a android.intent.action.MAIN -e message 'Disabled Swap (0MB)' -n com.rja.utility/.ShowToast > /dev/null 2>&1"
+else
+	su -c "swapoff /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img; rm -f /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img > /dev/null 2>&1"
+	su -c "dd if=/dev/zero of=/data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img bs=1000000 count=$1; mkswap /data/adb/modules/KhanhNguyen9872_RMX2021/KhanhVuiNguyenVan/swapfileKN9872.img > /dev/null 2>&1"
+	su -c "am start -a android.intent.action.MAIN -e message 'Please reboot device to apply change' -n com.rja.utility/.ShowToast > /dev/null 2>&1"
+fi
