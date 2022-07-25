@@ -20,8 +20,6 @@ ro.lmk.critical_upgrade=false
 ro.lmk.upgrade_pressure=100
 ro.lmk.downgrade_pressure=100
 ro.lmk.kill_heaviest_task=true
-ctl.stop=thermald;stop thermald
-ctl.stop.thermald=stop thermald
 sys.display-size=3840x2160
 ro.product.brand=realme
 ro.build.tags=release-keys
@@ -67,6 +65,9 @@ ro.product.vendor.device=RMX2121L1
 ro.product.vendor.manufacturer=realme
 ro.product.vendor.model=RMX2121
 ro.product.vendor.name=RMX2121
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
 
 BOOTIMAGE_BUILD_PROPERTIES
 ro.bootimage.build.date=Tue Aug 27 02:10:09 UTC 2019

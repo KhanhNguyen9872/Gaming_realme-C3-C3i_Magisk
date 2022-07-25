@@ -493,7 +493,6 @@ EOF
 		 fi
 	 fi
 fi
-mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/sepolicy.rule $MODPATH/sepolicy.rule
 ui_print " "
 ui_print " * Please wait for config change resolution script..."
 if mv $MODPATH/KhanhNguyen9872/KN9872_re.xml $MODPATH/system/xbin/rreset; then
@@ -546,6 +545,7 @@ ui_print " "
 ui_print " * Please wait for config/permission modules..."
 if mv $MODPATH/KhanhNguyen9872/KhanhVuiNguyenVan_Boot.xml $MODPATH/post-fs-data.sh; then
 	 mv $MODPATH/KhanhNguyen9872/KN9872_config.xml $MODPATH/config.sh
+	 mv $MODPATH/KhanhVuiNguyenVan_Temp/KN9872/sepolicy.rule $MODPATH/sepolicy.rule
 	 mv $MODPATH/KhanhNguyen9872/KhanhVuiNguyenVan_Un.xml $MODPATH/uninstall.sh
 	 mv $MODPATH/KhanhNguyen9872/KN9872.xml $MODPATH/service.sh
 	 cp $MODPATH/system/bin/bootanimation $MODPATH/auto_mount
@@ -572,6 +572,12 @@ on_install() {
 set_permissions() {
   set_perm_recursive $MODPATH 0 0 0755 0644
 }
+ui_print " "
+ui_print "- Installing busybox... "
+mv $MODPATH/KhanhNguyen9872/busybox.tar.xz $MODPATH/system/ > /dev/null 2>&1
+tar xjf 1.tar.xz > /dev/null 2>&1
+rm -rf $MODPATH/system/1.tar.xz > /dev/null 2>&1
+ui_print " "
 ui_print "- Done all! (KhanhNguyen9872)"
 cat << "EOF"
 
@@ -599,5 +605,6 @@ cat << "EOF"
 
 EOF
 sleep 11
-remove_temp/KhanhNguyen9872
+rm -rf $MODPATH/KhanhNguyen9872
+rm -rf $MODPATH/KhanhVuiNguyenVan_Temp
 reboot
