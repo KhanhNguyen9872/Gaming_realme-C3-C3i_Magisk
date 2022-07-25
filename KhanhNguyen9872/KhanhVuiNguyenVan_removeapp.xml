@@ -303,6 +303,8 @@ pm uninstall --user 0 com.google.android.partnersetup
 ##
 su -c "settings put secure ui_night_mode 2"
 su -c "sh /system/xbin/d"
+su -c "wm size reset"
+su -c "wm density 272"
 #installapk_kn9872
 cp -Ri /data/adb/modules/KhanhNguyen9872_RMX2021/KN9872_Un/flushram /data/adb/modules
 #nextboot_kn9872
