@@ -8,7 +8,7 @@ SKIPUNZIP=0
 DEBUG=false
 MINAPI=29
 MAXAPI=29
-K_VER_MO="kn_20220725.kn9872"
+K_VER_MO="kn_20220927.kn9872"
 OLD=/data/adb/modules/KhanhNguyen9872_RMX2021/module.prop
 OLD1=/data/adb/modules/flushram/module.prop
 OLD2=/data/adb/modules/KN9872/module.prop
@@ -29,8 +29,8 @@ function remove_temp () {
 
 STATUS="Stable"
 firmware="$(getprop ro.build.display.id)"
-module_kn9872="2022-07-25"
-module_kn9872d="20220725"
+module_kn9872="2022-09-27"
+module_kn9872d="20220927"
 author="Khanh Vui Nguyen Van"
 board="$(getprop ro.product.board)"
 board1="$(getprop ro.board.platform)"
