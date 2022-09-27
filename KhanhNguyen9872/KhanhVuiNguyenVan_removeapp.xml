@@ -90,7 +90,6 @@ pm disable-user --user 0 com.debug.loggerui
 pm disable-user --user 0 com.google.android.gms
 pm disable-user --user 0 com.coloros.sau
 pm disable-user --user 0 com.oppoex.afterservice
-pm disable-user --user 0 com.coloros.locationproxy
 pm disable-user --user 0 com.android.providers.calendar
 pm disable-user --user 0 com.android.dynsystem
 pm disable-user --user 0 com.heytap.cloud
@@ -104,9 +103,7 @@ pm disable-user --user 0 com.oppo.otaui
 pm disable-user --user 0 com.mediatek.gnssdebugreport
 pm disable-user --user 0 com.android.theme.color.green
 pm disable-user --user 0 com.coloros.wallpapers
-pm disable-user --user 0 com.oppo.locationpicker
 pm disable-user --user 0 com.coloros.compass2
-pm disable-user --user 0 com.mediatek.location.lppe.main
 pm disable-user --user 0 com.android.keychain
 pm disable-user --user 0 com.google.android.modulemetadata
 pm disable-user --user 0 com.ted.number
@@ -122,7 +119,6 @@ pm disable-user --user 0 com.android.proxyhandler
 pm disable-user --user 0 com.android.theme.color.purple
 pm disable-user --user 0 com.coloros.appmanager
 pm disable-user --user 0 com.coloros.securitypermission
-pm disable-user --user 0 com.coloros.notificationmanager
 pm disable-user --user 0 com.mediatek.capctrl.service
 pm disable-user --user 0 com.coloros.wifibackuprestore
 pm disable-user --user 0 com.mediatek.ims
@@ -151,7 +147,6 @@ pm disable-user --user 0 com.coloros.phonenoareainquire
 pm disable-user --user 0 com.android.calllogbackup
 pm disable-user --user 0 com.coloros.deepthinker
 pm disable-user --user 0 com.heytap.habit.analysis
-pm disable-user --user 0 com.coloros.safecenter
 pm disable-user --user 0 com.google.android.gms
 pm disable-user --user 0 com.android.vending
 pm disable-user --user 0 com.coloros.gamespace
@@ -202,7 +197,6 @@ pm disable-user --user 0 com.coloros.oppoguardelf
 pm disable-user --user 0 com.coloros.ocrscanner
 pm disable-user --user 0 com.realme.securitycheck
 pm disable-user --user 0 com.oppo.cota
-pm disable-user --user 0 com.coloros.simsettings
 pm disable-user --user 0 com.coloros.smartsidebar
 pm disable-user --user 0 com.nearme.atlas
 pm disable-user --user 0 com.google.android.tag
@@ -281,11 +275,9 @@ pm uninstall --user 0 ctrip.english
 pm uninstall --user 0 com.zing.mp3
 pm uninstall --user 0 com.mediatek.frameworkresoverlay
 pm uninstall --user 0 com.mediatek.ygps
-pm disable-user --user 0 com.android.location.fused
 pm disable-user --user 0 com.android.providers.userdictionary
 pm disable-user --user 0 com.mediatek.sensorhub.ui
 pm disable-user --user 0 com.android.pacprocessor
-pm disable-user --user 0 com.mediatek.lbs.em2.ui
 pm disable-user --user 0 com.oppo.fingerprints.fingerprintsensortest
 pm disable-user --user 0 com.coloros.exserviceui
 pm disable-user --user 0 com.mediatek.entitlement.o2
@@ -300,6 +292,33 @@ pm uninstall --user 0 com.google.android.configupdater
 pm uninstall --user 0 com.google.android.gms
 pm uninstall --user 0 com.google.android.gsf
 pm uninstall --user 0 com.google.android.partnersetup
+## some fix
+cmd package install-existing com.coloros.safecenter
+cmd package install-existing com.coloros.simsettings
+cmd package install-existing com.coloros.notificationmanager
+pm enable com.coloros.safecenter
+pm enable com.coloros.simsettings
+pm enable com.coloros.notificationmanager
+#pm disable-user --user 0 com.coloros.safecenter
+#pm disable-user --user 0 com.coloros.simsettings
+#pm disable-user --user 0 com.coloros.notificationmanager
+##
+## location
+cmd package install-existing com.mediatek.lbs.em2.ui
+cmd package install-existing com.android.location.fused
+cmd package install-existing com.mediatek.location.lppe.main
+cmd package install-existing com.oppo.locationpicker
+cmd package install-existing com.coloros.locationproxy
+pm enable com.mediatek.lbs.em2.ui
+pm enable com.android.location.fused
+pm enable com.mediatek.location.lppe.main
+pm enable com.oppo.locationpicker
+pm enable com.coloros.locationproxy
+#pm disable-user --user 0 com.mediatek.lbs.em2.ui
+#pm disable-user --user 0 com.android.location.fused
+#pm disable-user --user 0 com.mediatek.location.lppe.main
+#pm disable-user --user 0 com.oppo.locationpicker
+#pm disable-user --user 0 com.coloros.locationproxy
 ##
 su -c "settings put secure ui_night_mode 2"
 su -c "sh /system/xbin/d"
